@@ -1,0 +1,158 @@
+
+/*
+______________________________________________
+
+	DEFINITIONS DES CONSTANTES DE STYLES 
+______________________________________________
+*/
+
+/* Header */
+
+/* Effet fade-in + slide-up sur le titre d'accueil */
+.titre-accueil {
+  opacity: 0;
+  transform: translateY(40px);
+  animation: fadeSlideUp 1.2s ease-out forwards;
+}
+
+@keyframes fadeSlideUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* ______________________________________________
+ */
+
+ /* Effet au survol des cartes de navigation */
+.card:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.18), 0 1.5px 6px rgba(0,123,255,0.12);
+    transition: transform 0.25s cubic-bezier(.4,2,.3,1), box-shadow 0.25s;
+    z-index: 2;
+}
+.card {
+    transition: transform 0.25s cubic-bezier(.4,2,.3,1), box-shadow 0.25s;
+}
+
+:root {
+
+    /*
+    Style sur les polices :
+    -----------------------
+    */
+    /* --typo-generale: 'Fira Sans', 'Open Sans'; */
+
+    /* Polices titres & sous-titre : */
+    /* --typo-titres:  'Kanit', 'Exo 2'; */
+
+
+    /*
+    Style sur les couleurs :
+    ------------------------
+    */
+
+    /* --navbar-brand-couleur: rgb(255, 166, 0); */
+    --nav-link: white;
+    --nav-link-active: rgb(255, 209, 5);
+
+
+    /* Redéfinition des couleurs de Bootstrap :*/
+    /* --bs-warning: rgb(255, 166,  0);
+    --bs-warning-rgb: 255, 166, 0;
+
+    --bs-warning-bg-subtle: rgb(250, 240, 100);
+    --bs-warning-border-subtle: rgb(250, 240, 100); */
+
+}
+
+
+
+/*
+________________________________________________
+
+	DEFINITION DES PROPRIETES DES CLASSES CSS
+________________________________________________
+*/
+
+/*
+----------------------
+PROPRIETES GENERALES :
+----------------------
+*/
+
+/*
+Définition du fond :
+--------------------
+*/
+body {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.15), rgba(255, 255, 255, 0.95));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; /*contain*/ 
+    background-attachment: fixed;
+  }
+
+
+  /*
+PROPRIETES SUR LE HEADER & NAVBAR :
+-----------------------------------
+*/
+
+/*
+Définition du fond du header :
+------------------------------
+*/
+
+.background-header {
+    background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.95)), url('../backgrounds/header_background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; /*contain*/ 
+  }
+
+/*
+Couleur des éléments de navigations :
+-------------------------------------
+*/
+
+.navbar {
+    font-size: 0.8em;
+}
+
+.nav-link-icon {
+    font-size: 1.5em;
+}
+
+.nav-link {
+    color: var(--nav-link);
+}
+
+.nav-link:hover, .dropdown-item:hover {
+    color: var(--bs-warning);
+}
+
+.nav-link:active {
+    color: black;
+}
+
+
+.navbar-nav .nav-item .active {
+    color: var(--nav-link-active);
+  }
+
+
+.dropdown-item {
+    font-weight: bold;
+    color: black;
+}
+
+.dropdown-item:active {
+    background-color: var(--navbar-brand-couleur);
+    color: white;
+}
+
+
+.navbar-toggler {
+    background-color: rgba(255, 255, 255, 1);
+}
