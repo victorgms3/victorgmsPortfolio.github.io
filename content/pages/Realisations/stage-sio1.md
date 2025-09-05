@@ -31,7 +31,7 @@ La matinée a débuté par une présentation générale de l’entreprise, son o
 
 Dans un second temps, j’ai pris en main l’outil Draw.io, une application en ligne permettant de concevoir des schémas de bases de données. J’ai commencé par une première ébauche simplifiée de la base de données de l’entreprise afin de me familiariser avec sa structure globale, sans entrer dans les détails techniques.
 
-![Aperçu du schéma ](../../files/schemaBdd.png)
+![Schéma de la base de données réalisé avec Draw.io](../../files/schemaBdd.png)
 <!-- <img src="../../files/schemaBdd.png" alt="Aperçu du schéma" width="700px" style="max-width:100%; height:auto;" /> -->
 
 L’après-midi, j’ai approfondi cette modélisation en représentant une partie réelle de la base de données de l’entreprise, incluant le nom des différentes tables et champs. Ce travail m’a permis de mieux comprendre la logique de structuration des données dans l’entreprise.  
