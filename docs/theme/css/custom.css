@@ -24,16 +24,38 @@ ______________________________________________
 /* ______________________________________________
  */
 
- /* Effet au survol des cartes de navigation */
+/* Effet tilt sur les cards au survol */
 .card:hover {
-    transform: translateY(-8px) scale(1.03);
-    box-shadow: 0 8px 32px rgba(0,0,0,0.18), 0 1.5px 6px rgba(0,123,255,0.12);
-    transition: transform 0.25s cubic-bezier(.4,2,.3,1), box-shadow 0.25s;
+    transform: perspective(600px) rotateY(8deg) scale(1.08);
+    box-shadow: 0 0 32px rgba(132, 0, 255, 0.3), 0 8px 32px rgba(0,0,0,0.18);
+    transition: transform 0.3s, box-shadow 0.3s;
     z-index: 2;
 }
 .card {
-    transition: transform 0.25s cubic-bezier(.4,2,.3,1), box-shadow 0.25s;
+    transition: transform 0.3s, box-shadow 0.3s;
+    will-change: transform;  
+    background: linear-gradient(145deg, #120046, #1c0b4f);
+    border-radius: 16px;
+    box-shadow: 0 0 24px rgba(132, 0, 255, 0.25);
 }
+
+.card h3,
+.card h5,
+.card h2 {
+  font-family: 'Kanit', sans-serif;
+  color: #E0E6FF;
+  font-weight: 600;
+  text-shadow: 0 0 6px rgba(132, 0, 255, 0.4);
+}
+
+.card p {
+  font-family: 'Fira Sans', sans-serif;
+  color: #B8B8CC;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+
 
 :root {
 
@@ -86,12 +108,31 @@ Définition du fond :
 --------------------
 */
 body {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.15), rgba(255, 255, 255, 0.95));
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; /*contain*/ 
-    background-attachment: fixed;
-  }
+    background: #0a0033;
+    overflow-x: hidden;
+}
+
+.stars {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0; left: 0;
+    z-index: 0;
+    pointer-events: none;
+}
+
+.star {
+    position: absolute;
+    background: white;
+    border-radius: 50%;
+    opacity: 0.8;
+    animation: twinkle 2s infinite;
+}
+
+@keyframes twinkle {
+    0%, 100% { opacity: 0.8; }
+    50% { opacity: 0.2; }
+}
 
 
   /*
@@ -155,4 +196,20 @@ Couleur des éléments de navigations :
 
 .navbar-toggler {
     background-color: rgba(255, 255, 255, 1);
+}
+
+#text-type {
+  font-family: 'Fira Code', monospace;
+  color: #00fff7;
+  font-size: 1.4rem;
+}
+
+.type-cursor {
+  color: #ff0099; /* un rose néon qui clignote */
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
 }
