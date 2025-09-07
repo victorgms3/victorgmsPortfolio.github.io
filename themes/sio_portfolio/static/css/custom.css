@@ -213,3 +213,50 @@ Couleur des éléments de navigations :
   0%, 50% { opacity: 1; }
   51%, 100% { opacity: 0; }
 }
+
+/* ---------- TYPOGRAPHIE GLOBALE (hors header) ---------- */
+
+/* Titres hors header */
+body h1:not(.background-header h1),
+body h2:not(.background-header h2),
+body h3:not(.background-header h3),
+body h4:not(.background-header h4),
+body h5:not(.background-header h5),
+body h6:not(.background-header h6) {
+  font-family: 'Kanit', sans-serif;
+  color: #E0E6FF !important;
+  font-weight: 600;
+  text-shadow: 0 0 6px rgba(132, 0, 255, 0.25);
+  margin-top: 1.2em;
+  margin-bottom: 0.6em;
+}
+
+/* Texte standard */
+body p,
+body li,
+body span {
+  font-family: 'Fira Sans', sans-serif;
+  color: #B8B8CC;
+  line-height: 1.6;
+}
+
+/* Liens et accents */
+body a,
+body strong,
+body em {
+  color: #00fff7;
+  transition: color 0.3s ease;
+}
+
+body a:hover {
+  color: #ff0099;
+}
+
+body strong {
+  font-weight: 700;
+}
+
+body em {
+  font-style: italic;
+}
+
