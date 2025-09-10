@@ -91,7 +91,7 @@ document.addEventListener('mousemove', function(e) {
         halo.style.zIndex = '1';
         halo.style.borderRadius = '50%';
         halo.style.boxShadow = '0 0 80px 40px rgba(132,0,255,0.25)';
-        halo.style.width = halo.style.height = '120px';
+        halo.style.width = halo.style.height = '45px';
         document.body.appendChild(halo);
     }
     halo.style.left = (e.clientX - 60) + 'px';
