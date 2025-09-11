@@ -91,9 +91,13 @@ document.addEventListener('mousemove', function(e) {
         halo.style.zIndex = '1';
         halo.style.borderRadius = '50%';
         halo.style.boxShadow = '0 0 80px 40px rgba(132,0,255,0.25)';
-        halo.style.width = halo.style.height = '45px';
+        halo.style.width = halo.style.height = '40px';
         document.body.appendChild(halo);
     }
-    halo.style.left = (e.clientX - 60) + 'px';
-    halo.style.top = (e.clientY - 60) + 'px';
+    halo.style.left = (e.clientX - 20) + 'px';
+    halo.style.top = (e.clientY - 20) + 'px';
 });
+
+// Effect pour retirer la souris 
+
+// document.body.style.cursor = 'none';
