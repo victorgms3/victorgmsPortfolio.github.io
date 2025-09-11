@@ -33,9 +33,9 @@ function typeWriterEffect(elementId, texts, typingSpeed = 75, pauseDuration = 15
 // Utilisation :
 document.addEventListener("DOMContentLoaded", function() {
     typeWriterEffect("text-type", [
-        "<h1><strong>Bienvenue sur mon Portfolio</strong></h1>",
-        "<h2>Découvrez mes projets, compétences et parcours</h2>",
-        "<p><em>Bonne visite ;)</em></p>"
+        "<strong>Bienvenue sur mon Portfolio</strong>",
+        "Découvrez mes projets, compétences et parcours",
+        "<em>Bonne visite ;)</em>"
     ], 75, 1500, true, "|");
 });
 
