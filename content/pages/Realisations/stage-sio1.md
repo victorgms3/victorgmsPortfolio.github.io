@@ -81,7 +81,7 @@ Journée principalement consacrée au développement web. J’ai poursuivi la cr
 
 Voici un aperçu de la page d’accueil de la page web, qui a été retravaillée pour un environnement plus professionnel :
 
-<img src="../../files/siteTutoD8.png" alt="Aperçu page tutoriels" width="700px" style="max-width:100%; height:auto;" />
+<img src="(static)../../files/siteTutoD8.png" alt="Aperçu page tutoriels" width="700px" style="max-width:100%; height:auto;" />
 
 ---
 
