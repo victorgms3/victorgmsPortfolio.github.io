@@ -31,7 +31,7 @@ La matinée a débuté par une présentation générale de l’entreprise, son o
 
 Dans un second temps, j’ai pris en main l’outil Draw.io, une application en ligne permettant de concevoir des schémas de bases de données. J’ai commencé par une première ébauche simplifiée de la base de données de l’entreprise afin de me familiariser avec sa structure globale, sans entrer dans les détails techniques.
 
-![Schéma de la base de données réalisé avec Draw.io](../../files/schemaBdd.png)
+![Schéma de la base de données réalisé avec Draw.io]({static}/files/schemaBdd.png)
 <!-- <img src="../../files/schemaBdd.png" alt="Aperçu du schéma" width="700px" style="max-width:100%; height:auto;" /> -->
 
 L’après-midi, j’ai approfondi cette modélisation en représentant une partie réelle de la base de données de l’entreprise, incluant le nom des différentes tables et champs. Ce travail m’a permis de mieux comprendre la logique de structuration des données dans l’entreprise.  
@@ -81,7 +81,7 @@ Journée principalement consacrée au développement web. J’ai poursuivi la cr
 
 Voici un aperçu de la page d’accueil de la page web, qui a été retravaillée pour un environnement plus professionnel :
 
-<img src="(static)../../files/siteTutoD8.png" alt="Aperçu page tutoriels" width="700px" style="max-width:100%; height:auto;" />
+<img src="{static}/files/siteTutoD8.png" alt="Aperçu page tutoriels" width="700px" style="max-width:100%; height:auto;" />
 
 ---
 
@@ -143,4 +143,4 @@ effet, l'interface de configuration des rapports dans VEGA n'est pas
 très intuitive, et nécessite une bonne connaissance de l'outil pour
 obtenir un affichage clair et exploitable.
 
-**[🔗 Rapport PDF : Retards de réapprovisionnement](../../files/retardReappro.pdf)**
+**[🔗 Rapport PDF : Retards de réapprovisionnement]({static}/files/retardReappro.pdf)**
