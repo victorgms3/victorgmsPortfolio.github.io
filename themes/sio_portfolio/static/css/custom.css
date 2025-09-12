@@ -265,3 +265,18 @@ body em {
   font-style: italic;
 }
 
+/* Section générale */
+.custom-section {
+  max-width: 600px;
+  margin: 50px auto; /* Centre horizontalement */
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+}
+
+.custom-section h2 {
+  color: #00d4ff;
+  margin-bottom: 20px;
+}
