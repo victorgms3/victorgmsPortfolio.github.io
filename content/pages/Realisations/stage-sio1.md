@@ -143,4 +143,4 @@ effet, l'interface de configuration des rapports dans VEGA n'est pas
 très intuitive, et nécessite une bonne connaissance de l'outil pour
 obtenir un affichage clair et exploitable.
 
-**[🔗 Rapport PDF : Retards de réapprovisionnement](../../files/ProjetD8_retardReappro.pdf)**
+**[🔗 Rapport PDF : Retards de réapprovisionnement](../../files/retardReappro.pdf)**
