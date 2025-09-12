@@ -7,4 +7,4 @@ Title: Réalisations
 - [Stage de seconde année année](../pages/stage-sio2)
 - [Projets scolaires](../pages/projets-scolaires)
 - [Projets personnels](../pages/projets-personnels)
-- [Certifications complémentaires](../pages/certifications-complementaires)
+- [Certifications complémentaires](../pages/certifications-complementaires)   
