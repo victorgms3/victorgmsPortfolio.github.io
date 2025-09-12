@@ -134,5 +134,4 @@ Après l'exécution de la commande `pelican content -s publishconf.py`, votre po
 
 ## ✍️ Auteur
 
-Développé dans le cadre du BTS SIO SLAM  
-Modèle de base à adapter et personnaliser pour chaque étudiant.
+Développé Par GOMES SILVA Victor élèves de SIO22
